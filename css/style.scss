@@ -1,6 +1,4 @@
-header{
 
-}
 a{
     color: inherit !important;
     text-decoration: none !important;
@@ -112,7 +110,7 @@ a{
 }
 .slide--service{
     padding: 30px 0;
-   
+    overflow: hidden;
 }
 .item--slide{
     .image--slide{
@@ -167,6 +165,8 @@ a{
 .slide--banner--js{
     background: rgba(0,137,47,1);
     padding: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
     .text--slide--banner{
         font-family: Roboto-Medium, sans-serif;
         font-size: 19px;
@@ -210,6 +210,7 @@ a{
     background-position: center;
     background-attachment: fixed;
     padding: 30px;
+    overflow: hidden;
     .title-product{
         color: #fff;
         text-align: center;
@@ -227,6 +228,7 @@ a{
 .list-product{
     background: rgba(249,240,224,1);
     padding: 40px;
+    overflow: hidden;
     .title-list-product{
         font-size: 30px;
         color: #fd0b19;
@@ -280,6 +282,7 @@ a{
 }
 .kiem-chung{
     padding: 40px 0;
+    overflow: hidden;
     .image--slide{
         border: none;
         border-radius: none;
@@ -291,6 +294,7 @@ a{
 }
 .video-chuyen-gia{
     padding: 30px 0;
+    overflow: hidden;
     iframe{
         width: 100%;
         height: 300px;
@@ -305,9 +309,11 @@ a{
 }
 .khach-hang{
     padding: 40px 0;
+    overflow: hidden;
     background: rgba(249,240,224,1);
 }
 .slide-khach-hang{
+    overflow: hidden;
     .img-khach-hang{
         width: 230px;
         height: 230px;
@@ -357,6 +363,7 @@ a{
     background-size: cover;
     background-attachment: fixed;
     counter-reset: cauhoi;
+    overflow: hidden;
     .main--title{
         color: #fff;
     }
@@ -420,6 +427,7 @@ a{
     background: rgba(135,195,2,1);
     padding: 50px 0px;
     color: #fff;
+    overflow: hidden;
     .main--title{
         color: #fff;
     }
@@ -475,6 +483,7 @@ a{
 footer{
     background: rgba(216,26,34,1);
     padding: 50px 0;
+    overflow: hidden;
     .main--title{
         color:#fff;
     }

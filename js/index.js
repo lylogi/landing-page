@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    new WOW().init();
     $('.slide--banner--js').owlCarousel({
         loop:true,
         nav:true,
@@ -38,5 +39,15 @@ $(document).ready(function(){
         $(this).click(function(){
             $(this).parent(".cau-hoi").toggleClass("show");
         })
-    })
+    });
+
+    $('a[href^="#"]').on('click', function(event) {
+    var target = $( $(this).attr('href') );
+    if( target.length ) {
+        event.preventDefault();
+        $('html, body').animate({
+            scrollTop: target.offset().top,
+            scrollBottom: target.offset().bottom
+        }, 3000);
+    } })
 })

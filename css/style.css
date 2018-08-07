@@ -103,7 +103,8 @@ a {
   margin-bottom: 30px; }
 
 .slide--service {
-  padding: 30px 0; }
+  padding: 30px 0;
+  overflow: hidden; }
 
 .item--slide .image--slide {
   width: 100%;
@@ -157,7 +158,9 @@ a {
 
 .slide--banner--js {
   background: #00892f;
-  padding: 10px; }
+  padding: 10px;
+  margin-bottom: 20px;
+  overflow: hidden; }
   .slide--banner--js .text--slide--banner {
     font-family: Roboto-Medium, sans-serif;
     font-size: 19px;
@@ -192,7 +195,8 @@ a {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  padding: 30px; }
+  padding: 30px;
+  overflow: hidden; }
   .product .title-product {
     color: #fff;
     text-align: center;
@@ -206,7 +210,8 @@ a {
 
 .list-product {
   background: #f9f0e0;
-  padding: 40px; }
+  padding: 40px;
+  overflow: hidden; }
   .list-product .title-list-product {
     font-size: 30px;
     color: #fd0b19;
@@ -253,7 +258,8 @@ a {
       margin-right: 10px; }
 
 .kiem-chung {
-  padding: 40px 0; }
+  padding: 40px 0;
+  overflow: hidden; }
   .kiem-chung .image--slide {
     border: none;
     border-radius: none; }
@@ -262,7 +268,8 @@ a {
     padding: 15px 0; }
 
 .video-chuyen-gia {
-  padding: 30px 0; }
+  padding: 30px 0;
+  overflow: hidden; }
   .video-chuyen-gia iframe {
     width: 100%;
     height: 300px; }
@@ -273,50 +280,50 @@ a {
 
 .khach-hang {
   padding: 40px 0;
+  overflow: hidden;
   background: #f9f0e0; }
 
-.slide-khach-hang .img-khach-hang {
-  width: 230px;
-  height: 230px;
-  border-radius: 50%;
-  overflow: hidden;
-  margin: 20px auto;
-  -webkit-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s; }
-  .slide-khach-hang .img-khach-hang:hover {
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1); }
-  .slide-khach-hang .img-khach-hang img {
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-    object-fit: cover;
-    -o-object-position: center;
-    object-position: center; }
-
-.slide-khach-hang .owl-nav .owl-prev, .slide-khach-hang .owl-nav .owl-next {
-  position: absolute;
-  top: 50%;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  background: rgba(0, 0, 0, 0.3) !important;
-  z-index: 99;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%); }
-  .slide-khach-hang .owl-nav .owl-prev span, .slide-khach-hang .owl-nav .owl-next span {
-    font-size: 60px;
-    color: #fff;
-    line-height: 45px; }
-
-.slide-khach-hang .owl-nav .owl-prev {
-  left: -50px; }
-
-.slide-khach-hang .owl-nav .owl-next {
-  right: -50px; }
+.slide-khach-hang {
+  overflow: hidden; }
+  .slide-khach-hang .img-khach-hang {
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 20px auto;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s; }
+    .slide-khach-hang .img-khach-hang:hover {
+      -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1); }
+    .slide-khach-hang .img-khach-hang img {
+      width: 100%;
+      height: 100%;
+      -o-object-fit: cover;
+      object-fit: cover;
+      -o-object-position: center;
+      object-position: center; }
+  .slide-khach-hang .owl-nav .owl-prev, .slide-khach-hang .owl-nav .owl-next {
+    position: absolute;
+    top: 50%;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.3) !important;
+    z-index: 99;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%); }
+    .slide-khach-hang .owl-nav .owl-prev span, .slide-khach-hang .owl-nav .owl-next span {
+      font-size: 60px;
+      color: #fff;
+      line-height: 45px; }
+  .slide-khach-hang .owl-nav .owl-prev {
+    left: -50px; }
+  .slide-khach-hang .owl-nav .owl-next {
+    right: -50px; }
 
 .thac-mac {
   padding: 40px 0;
@@ -324,7 +331,8 @@ a {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  counter-reset: cauhoi; }
+  counter-reset: cauhoi;
+  overflow: hidden; }
   .thac-mac .main--title {
     color: #fff; }
 
@@ -387,7 +395,8 @@ a {
 .bang-gia {
   background: #87c302;
   padding: 50px 0px;
-  color: #fff; }
+  color: #fff;
+  overflow: hidden; }
   .bang-gia .main--title {
     color: #fff; }
   .bang-gia .cach-mua {
@@ -433,7 +442,8 @@ a {
 
 footer {
   background: #d81a22;
-  padding: 50px 0; }
+  padding: 50px 0;
+  overflow: hidden; }
   footer .main--title {
     color: #fff; }
   footer .item-ft {
